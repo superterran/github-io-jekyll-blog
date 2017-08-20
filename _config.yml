@@ -26,6 +26,8 @@ github_username:  superterran
 facebook_username: doug.hatcher
 linkedin_username: doughatcher
 codepen_username: superterran
+disqus.shortname: supa
+
 
 # Build settings
 markdown: kramdown
