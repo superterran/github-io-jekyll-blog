@@ -7,6 +7,7 @@
         <ul class="contact-list">
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p></li>
         </ul>
       </div>
 
@@ -54,4 +55,4 @@
 </footer>
 
 <!-- disqus comment count -->
-<script id="dsq-count-scr" src="//supa.disqus.com/count.js" async></script>
+<script id="dsq-count-scr" src="//{{ site.disqus.shortname }}.disqus.com/count.js" async></script>
