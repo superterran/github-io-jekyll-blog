@@ -1,8 +1,5 @@
 ---
-layout: post
 title: Chromcast Audio to PC Line-in as Multi-room Solution
-date:  2016-01-10 13:40:00 -0500
-categories: Hardware Linux
 ---
 
 

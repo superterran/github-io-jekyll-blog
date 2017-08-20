@@ -1,8 +1,5 @@
 ---
-layout: post
 title: Meld on OS X
-date:  2016-01-12 20:19:00 -0500
-categories: Hardware Linux
 ---
 
 
