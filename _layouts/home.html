@@ -28,7 +28,7 @@ layout: default
         {% else %}
           {{ post.excerpt }}
           {% if post.content != post.excerpt %}
-          <a href="{{ post.url | relative_url }}">...</a>
+          <a href="{{ post.url | relative_url }}">Read More...</a>
           {% endif %}
           <a class="post-meta commentcount" href="{{ post.url | prepend: site.baseurl }}#disqus_thread">Comments</a>
         {% endif %}

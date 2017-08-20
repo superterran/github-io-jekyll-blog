@@ -1,8 +1,5 @@
 ---
-layout: post
 title: So I have this pet theory
-date:  2017-01-02 14:43:00 -0500
-categories: Software Devices
 ---
 So I have this pet theory that phones and tablets are a transitional forms and in the not-to-distant future we won't carry around those stupid devices. Eventually stuff like Intel RealSense will get to a point where when you pick up a device, settings are pulled from the internet, and you're instantly in a userspace that's richer and just as customizable as anything going. 
 
