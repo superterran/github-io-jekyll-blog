@@ -27,11 +27,17 @@ layout: default
             {{ post.content }}
           {% else %}
             {{ post.excerpt }}
-            {% if post.content != post.excerpt %}<a style="float: left" href="{{ post.url | relative_url }}"> More...</a>{% endif %}
-
-            <a class="post-meta commentcount" href="{{ post.url | prepend: site.baseurl }}#disqus_thread">Comments</a>
             
-          {% endif %}
+            {% if post.content != post.excerpt %}
+              <a style="float: left" href="{{ post.url | relative_url }}">...</a>
+            {% endif %}
+
+              {% if disqus.show_home == true %}
+                {% if post.hide_comments != false %}
+                  <a class="post-meta commentcount" href="{{ post.url | prepend: site.baseurl }}#disqus_thread">Comments</a>
+                {% endif %}
+              {% endif %}
+            {% endif %}
         </li>
       {% endfor %}
     </ul>

@@ -29,6 +29,7 @@ codepen_username: superterran
 
 disqus:
   shortname: supa
+  show_home: false
 
 # Build settings
 markdown: kramdown
