@@ -8,4 +8,4 @@ tags: demo
 frontpage: true
 ---
 
-<iframe src="https://rawgit.com/superterran/d85f346188741da23832f05cd79dfe20/raw/06dbb2b5f252146800181e9751790098ddec27dc/nibbles.html" class="showcase" style="width: 740px; height: 600px;"></iframe>
+<iframe src="https://rawgit.com/superterran/d85f346188741da23832f05cd79dfe20/raw/06dbb2b5f252146800181e9751790098ddec27dc/nibbles.html" class="showcase"></iframe>
