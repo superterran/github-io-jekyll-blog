@@ -27,8 +27,8 @@ layout: default
           {{ post.content }}
         {% else %}
           {{ post.excerpt }}
-          {% if post.content == post.excerpt %}
-          <a class="post-link" href="{{ post.url | relative_url }}">...</a>
+          {% if post.content != post.excerpt %}
+          <a href="{{ post.url | relative_url }}">...</a>
           {% endif %}
         {% endif %}
         </li>
