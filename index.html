@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% for page in site.pages %}
+  {% if page.frontpage %}
+    <div class="hero demospace">
+        {{ page.content }}
+    </div>
+  {% endif %}
+{% endfor %}
+
+% include postlist.html %
