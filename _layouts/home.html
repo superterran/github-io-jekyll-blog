@@ -29,7 +29,7 @@ layout: default
             {{ post.excerpt }}
             
             {% if post.content != post.excerpt %}
-              <a style="float: left" href="{{ post.url | relative_url }}">...</a>
+              <a href="{{ post.url | relative_url }}">...</a>
             {% endif %}
 
               {% if disqus.show_home == true %}
