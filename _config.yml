@@ -16,13 +16,16 @@
 title: superterran dot com 
 email: superterran@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+  I'm just some guy with a laptop and not enough time on my hands. Here's hoping
+  that with a little love and care this sapling mess of html and markdown will
+  keep growing. I'll try to keep my contributions short and useful!
+  baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: superterran
 github_username:  superterran
+facebook_username: doug.hatcher
+linkedin_username: doughatcher
+codepen_username: superterran
 
 # Build settings
 markdown: kramdown
