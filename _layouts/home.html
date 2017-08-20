@@ -30,6 +30,7 @@ layout: default
           {% if post.content != post.excerpt %}
           <a href="{{ post.url | relative_url }}">...</a>
           {% endif %}
+          <a class="post-meta commentcount" href="{{ post.url | prepend: site.baseurl }}#disqus_thread">Comments</a>
         {% endif %}
         </li>
       {% endfor %}
