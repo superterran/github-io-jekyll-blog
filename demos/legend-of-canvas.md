@@ -8,4 +8,4 @@ tags: demo
 frontpage: true
 ---
 
-<iframe src="https://rawgit.com/superterran/legend-of-canvas/master/index.html" class="showcase" style="width: 600px; height: 600px;"></iframe>
+<iframe src="https://rawgit.com/superterran/legend-of-canvas/master/index.html" class="showcase" style="width: 740px; height: 600px;"></iframe>
