@@ -2,7 +2,7 @@
 layout: demo
 title: Starfield
 link: https://gist.github.com/superterran/b534c116eb4088c728dfb68f69cd7170
-frontpage: true
+frontpage: false
 tags: demo
 ---
 
