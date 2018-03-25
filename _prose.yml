@@ -1,0 +1,41 @@
+prose:
+  rooturl: ''
+  siteurl: 'http://superterran.com'
+ # relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'assets'
+  
+
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /art
+    - /about
+    - /css
+    - /fonts
+    - /img
+    - /js
+    - /media
+    - /newsletter
+    - /weblog
+    - /.gitignore
+    - /CNAME
+    - /Gruntfile.js
+    - /LICENSE
+    - /_prose.yml
+    - /bower.json
+    - /favicon.ico
+    - /feed.xml
+    - /logo.png
+    - /package.json
+    - /search.html
+    - /search.json
+ 
