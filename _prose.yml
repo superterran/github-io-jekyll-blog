@@ -40,7 +40,7 @@ prose:
         field:
           element: "text"
           label: "thumbnail filename"         
-      - name: "thumb"
+      - name: "tags"
         field:
           element: "tags"
           label: "Tags"
