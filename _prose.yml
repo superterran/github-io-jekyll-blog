@@ -28,22 +28,7 @@ prose:
         field:
           element: "hidden"
           value: "demo"
-      - name: "description"
-        field:
-          element: "textarea"
-          label: "short description"
-      - name: "link"
-        field:
-          element: "text"
-          label: "link to source"
-       - name: "thumb"
-        field:
-          element: "text"
-          label: "thumbnail filename"         
-       - name: "thumb"
-        field:
-          element: "tags"
-          label: "Tags"
+
   ignore:
     - index.md
     - _config.yml
