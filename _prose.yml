@@ -40,4 +40,5 @@ prose:
     - /search.json
     - /Gemfile
     - /Genfile.lock
+    - /assets
  
