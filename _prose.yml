@@ -15,25 +15,16 @@ prose:
         field:
           element: "text"
           value: CURRENT_DATETIME
-#    _projects:
-#      - name: "layout"
-#        field: 
-#          element: "hidden"
-#          value: "demo"
-#      - name: "description"
-#        field:
-#          element: "textarea"
-#          label: "Project Description"
-#      - name: "link"
-#        field:
-#          element: "text"
-#          label: "Link to source"
-#      - name: "thumb"
-#          element: "text"
-#          label: "thumbnail filename"
-#      - name: "tags"
-#          element: "text"
-#          label: "tags"
+    projects:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "date"
+        field:
+          element: "text"
+          value: CURRENT_DATETIME
+
   ignore:
     - index.md
     - _config.yml
