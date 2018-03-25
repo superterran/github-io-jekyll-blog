@@ -38,4 +38,6 @@ prose:
     - /package.json
     - /search.html
     - /search.json
+    - /Gemfile
+    - /Genfile.lock
  
