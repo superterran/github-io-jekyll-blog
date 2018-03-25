@@ -28,6 +28,10 @@ prose:
         field:
           element: "hidden"
           value: "demo"
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "short description"
 
   ignore:
     - index.md
