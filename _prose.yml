@@ -61,6 +61,6 @@ prose:
     - /search.html
     - /search.json
     - /Gemfile
-    - /Genfile.lock
+    - /Gemfile.lock
     - /assets
  
